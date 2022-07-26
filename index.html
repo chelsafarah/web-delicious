@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Delicious</title>
+    <link rel="icon" type="image/x-icon" href="assets/image/coffee.png" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h4>Delicious</h4>
+        </div>
+        <a class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <ul class="navbar-link">
+          <li class="link"><a href="#beranda">Beranda</a></li>
+          <li class="link"><a href="#tentangkami">Tentang Kami</a></li>
+          <li class="link"><a href="#menu">Menu</a></li>
+          <li class="link"><a href="#kontak">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="content">
+        <article id="beranda" class="card">
+          <div class="space"></div>
+          <div class="card-beranda flex">
+            <div class="slide-container">
+              <img class="slides" src="assets/image/cappuccino.jpg" />
+              <img class="slides" src="assets/image/tea-mint.jpg" />
+              <img class="slides" src="assets/image/cinnamon.jpg" />
+              <div>
+                <div class="prev-arrow" onclick="plusDivs(-1)">&#10094;</div>
+                <div class="next-arrow" onclick="plusDivs(1)">&#10095;</div>
+                <div class="container-badge">
+                  <span class="dots dot-white badge" onclick="currentDiv(1)"></span>
+                  <span class="dots dot-white badge" onclick="currentDiv(2)"></span>
+                  <span class="dots dot-white badge" onclick="currentDiv(3)"></span>
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <h1>Delicous Food !</h1>
+              <p>"Once in a young lifetime, one should be allowed to have as much sweetness as one can possibly want and hold." - Judith Olney.</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="tentangkami" class="card">
+          <div class="space"></div>
+          <h2>Tentang Kami</h2>
+          <p>Delicious caffe menyediakan aneka ragam kue serta minuman segar yang sehat untuk dikonsumsi masyarakat dan memberikan pelayanan yang terbaik kepada konsumen.</p>
+          <p>
+            Kami berawal dari Medan pada tahun 80an, karena banyak faktor, sebuah usaha Bakery ini lalu pindah ke ibukota Indonesia tercinta, Jakarta, tepatnya pada tahun 1989. Seiring dengan berjalannya waktu, saat ini berkembang menjadi 6
+            outlets berkat dukungan-dukungan dari para pelanggan kami yang setia. Dan kami juga akan berusaha memberikan yang terbaik dari kualitas & pelayanan untuk anda.
+          </p>
+        </article>
+
+        <article id="menu" class="card">
+          <div class="space"></div>
+          <h2>Menu</h2>
+          <img src="assets/image/menu.png" class="image-menu" alt="menu" />
+        </article>
+
+        <article id="kontak" class="card" style="text-align: center">
+          <div class="space"></div>
+          <h2>Kontak Kami</h2>
+          <div class="detail-contact">
+            <img src="assets/image/wa.png" class="contact-img" alt="Whatsapp" />
+            <span class="texts">081222321829</span>
+          </div>
+          <div class="detail-contact">
+            <img src="assets/image/email.png" class="contact-img" alt="email" />
+            <span class="texts">email@gmail.com</span>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <div class="bio-card">
+          <img src="assets/image/my-profil.jpeg" class="image-profil" alt="profil" />
+          <h3>Chelsa Farah V</h3>
+          <p>Developer</p>
+          <p>chelsafv75@gmail.com | 085728920525</p>
+          <p>
+            <img src="assets/image/instagram.png" class="bio-img" alt="instagram" />
+            <img src="assets/image/github.png" class="bio-img" alt="github" />
+            <img src="assets/image/linkedIn.png" class="bio-img" alt="linkedIn" />
+          </p>
+        </div>
+      </aside>
+    </main>
+    <footer>
+      <div>
+        <p>Delicious caffe &#169; 2022</p>
+      </div>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
